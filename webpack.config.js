@@ -15,6 +15,8 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
     cache: true,
     alias: {
+      'react-dom$': 'react-dom/profiling',
+      'scheduler/tracing': 'scheduler/tracing-profiling',
       '@components': join(PATH.source, 'components'),
       '@pages': join(PATH.source, 'pages'),
     }
