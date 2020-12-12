@@ -1,0 +1,8 @@
+# Node modules directory
+node_modules/
+
+# Production build directory
+dist/
+
+# MACOS related files
+.DS_Store
