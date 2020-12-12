@@ -44,8 +44,7 @@ export const ColorDialogBox = React.memo((props: ColorDialogBoxProps) => {
 
   const generateGradient = (direction: string, list: ColorItem[]) => {
     const colorSequence = list.map((item: ColorItem) => item.colorValue).join(', ');
-    const gradient = `linear-gradient(${direction}, ${colorSequence})`;
-    return gradient;
+    return `linear-gradient(${direction}, ${colorSequence})`;
   }
 
   React.useEffect(() => {

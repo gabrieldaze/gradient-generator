@@ -4,5 +4,8 @@ node_modules/
 # Production build directory
 dist/
 
+# Webstorm configuration directory
+.idea/
+
 # MACOS related files
 .DS_Store
